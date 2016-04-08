@@ -1,0 +1,12 @@
+# behat.yml
+default:
+    autoload:
+        '': %paths.base%/app/features/bootstrap
+    suites:
+        default:
+          contexts: [App\Bootstrap\FeatureContext]
+#        paths:
+#         - %paths.base%/tests/features
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~

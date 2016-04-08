@@ -1,0 +1,261 @@
+/* STOCKFOLI CSS */
+
+/********************************************
+GENERAL
+********************************************/
+
+body {
+	font-family: 'Roboto Slab', serif;    
+	margin-bottom: 0;
+    background-color: #222222;
+    background-color: white;
+    color: #000000;
+}
+
+p {
+	/*color: #222222;*/
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+/********************************************
+HOME PAGE
+********************************************/
+
+/* To wrap and properly size the home page.
+	All components fall under this wrapper. 
+	Ensures everything is centered properly */
+.main-wrapper {
+	background-color: white;
+
+	width: 45%;
+	height: 60%;
+	border-radius: 15px;
+	text-align: center;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3em;
+
+	display: block;
+	clear:both;
+
+	/* Following three lines taken from stack overflow.
+	Trying to figure out how to vertically center the login
+	credentials.
+	http://stackoverflow.com/questions/14123999/center-a-div-horizontally-and-vertically
+	*/
+	/*max-width: 100%;
+	max-height: 100%;
+	overflow: auto;*/
+
+}
+
+#logo {
+	/*background-color: green;*/
+	/*margin-top: 300px;*/
+	padding: 30px;
+	/*width: 80%;
+	height: 20%;*/
+	/*height: 200px;*/
+	display: block;
+}
+
+#logo img {
+	width: 50%;
+}
+
+#login {
+	background-color:white;
+	display: block;
+	clear:both;
+	/*border-radius: 15px;*/
+}
+
+
+
+/********************************************
+PORTFOLIO PAGE
+********************************************/
+
+.portfolio-wrapper {
+	margin: auto;
+	width: 95%;
+	text-align: center;
+	height: 90%;
+	/*margin-top: 10px;*/
+	/*height: 750px;*/
+	/*background-color: white;*/
+	border-radius: 15px;
+}
+
+#header {
+	/*background-color: white;*/
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portfolio-logo {
+	/*background-color: white;*/
+	width: 20%;
+	height: 100%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#portfolio-logo img {
+	padding: 20px;
+	width: 80%;	
+}
+
+#account-wrapper {
+	/*background-color: red;
+	background-color: white;*/
+	/*width: 70%;*/
+	/*width: 95%;*/
+	width: 35%;
+	height: 100%;
+	border-radius: 10px;
+	/*margin-bottom: 50px;*/
+	/*float: center;*/
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#upload-search-logout-wrapper {
+	/*background-color: yellow;
+	background-color: white;*/
+	/*width: 70%;*/
+	/*width: 95%;*/
+	width: 35%;
+	height: 100%;
+	border-radius: 10px;
+	/*margin-bottom: 50px;*/
+	/*margin-top: 20px;*/
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	clear: both;
+	vertical-align: top;
+}
+
+#upload-search-logout-wrapper ul li {
+	display: inline;
+}
+
+#columns-wrapper {
+	/*background-color: orange;
+	background-color: white;*/
+	/*width: 95%;*/
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: inline-block;
+	clear:both;
+}
+
+#test-wrapper {
+	/*background-color: orange;
+	background-color: white;*/
+	/*width: 95%;*/
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: inline-block;
+	clear:both;
+}
+
+#left-wrapper, #center-wrapper, #right-wrapper {
+	/*background-color: white;*/
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+}
+
+#left-wrapper {
+	width: 30%;
+}
+
+#center-wrapper {
+	width: 40%;
+}
+
+#right-wrapper {
+	width: 20%;
+}
+
+
+#portfolio-widget,
+	#tabs, 
+	#graph-widget, 
+	#user-manual-widget, 
+	#watch-list-widget, 
+	#recommended-action-widget, 
+	#legend-widget, 
+	#stock-information-widget,
+	#buy-sell-widget {
+	/*background-color: red;
+	background-color: yellow;*/
+	width: 95%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	/*clear: both;*/
+}
+
+#tabs {
+	margin-bottom: 0px;
+}
+
+#graph-widget {
+	/*background-color: blue;
+	background-color: white;*/
+}
+
+#user-manual-widget {}
+
+#watch-list-widget {}
+
+#recommended-action-widget {}
+
+#legend-widget {}
+
+#stock-information-widget {}
+
+#buy-sell-widget {}
+
+
+/********************************************
+STYLING
+********************************************/
+
+#rcorners1 {
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 50px; 
+    margin: auto;
+}
+

@@ -1,0 +1,121 @@
+/*
+@media screen and (min-width: 480px) {
+    body {
+        background: navy;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    body {
+        background: darkgreen;
+    }
+}
+*/
+
+/* targets larger than average smartphone */
+@media screen and (min-width: 480px) {
+
+    /********************************************
+    TWO COLUMN LAYOUT
+    ********************************************/
+    
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+    
+    /********************************************
+    3 * 5 = 14   Margins
+    100% - 15% = 85% left for images
+    85 / 3 = 28.33333333333
+    Weird numbers like this are alright, computers can handle it
+    ********************************************/
+    
+    /********************************************
+    PAGE: PORTFOLIO
+    ********************************************/
+    
+    #gallery li {
+        width: 28.3333%;
+    }
+    
+    /* or gallery li:nth-child(4n)...*/
+    #gallery li:nth-child(3n + 1) {
+        clear: left;
+    }
+    
+    /********************************************
+    PAGE: PORTFOLIO
+    ********************************************/
+    
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    
+    /********************************************
+    PAGE: PORTFOLIO
+    ********************************************/
+    
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        /*margin-right: 5%;*/
+        margin-right: 10%;
+        text-align: right;
+        width: 45%;
+    }
+    
+    #logo {
+        float: center;
+        margin-left: 0%;
+        text-align: left;
+        width: 45%;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+    
+    header {
+        /*border-bottom: 5px solid #5b5b5b;;*/
+        /*margin-bottom: 60px;*/
+    }
+
+    /********************************************
+    3 * 5 = 14   Margins
+    100% - 15% = 85% left for images
+    85 / 3 = 28.33333333333
+    Weird numbers like this are alright, computers can handle it
+    ********************************************/
+    
+    /********************************************
+    PAGE: FILMS
+    ********************************************/
+    
+    #film-gallery li {
+        width: 28.3333%;
+    }
+    
+    /* or gallery li:nth-child(4n)...*/
+    #gallery li:nth-child(3n + 1) {
+        clear: left;
+    }
+    
+    
+}
+
